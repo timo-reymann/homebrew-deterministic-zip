@@ -4,13 +4,13 @@
 class DeterministicZip < Formula
     desc "Simple (almost drop-in) replacement for zip that produces deterministic files."
     if OS.mac?
-      url "https://github.com/timo-reymann/deterministic-zip/releases/download/0.0.6/deterministic-zip_darwin-amd64"
-      sha256 "bae82ff91dfbf789c29467026d0161d8285340e6de507e5ac8d52f0b1ac1cc54"
-      version "0.0.6"
+      url "https://github.com/timo-reymann/deterministic-zip/releases/download/0.0.8/deterministic-zip_darwin-amd64"
+      sha256 "c1316d1822a816b4e5225235537aa1d2884e74edd16c90b49c3cbe77684e0a6b"
+      version "0.0.8"
     elsif OS.linux?
-      url "https://github.com/timo-reymann/deterministic-zip/releases/download/0.0.6/deterministic-zip_linux-amd64"
-      sha256 "ee51c56bdec8189ea0c2f76e1c8017871416db44748bb7335d8ec5cc18e5d0ff"
-      version "0.0.6"
+      url "https://github.com/timo-reymann/deterministic-zip/releases/download/0.0.8/deterministic-zip_linux-amd64"
+      sha256 "34da53d4e0f3e4ba7e30478ac4002fc2be2bc0967bbcb1a32e178f5d52f3e435"
+      version "0.0.8"
     end
 
     def install
