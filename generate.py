@@ -20,6 +20,6 @@ with open("formula.template", "r") as template_file:
 tpl = Template(formula_template)
 formula = tpl.substitute(data)
 
-with open("deterministic_zip.rb", "w") as formula_file:
+with open("deterministic-zip.rb", "w") as formula_file:
     formula_file.write(formula)
 
