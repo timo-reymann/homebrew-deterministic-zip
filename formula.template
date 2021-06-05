@@ -1,0 +1,30 @@
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://www.rubydoc.info/github/Homebrew/brew/master/Formula
+
+class DeterministicZip < Formula
+    desc "Simple (almost drop-in) replacement for zip that produces deterministic files."
+    if OS.mac?
+      url "https://github.com/timo-reymann/deterministic-zip/releases/download/$version/deterministic-zip_darwin-amd64"
+      sha256 "$sha256_mac"
+      version "$version"
+    elsif OS.linux?
+      url "https://github.com/timo-reymann/deterministic-zip/releases/download/$version/deterministic-zip_linux-amd64"
+      sha256 "$sha256_linux"
+      version "$version"
+    end
+
+    def install
+      if OS.mac?
+        bin.install "deterministic-zip_darwin-amd64"
+        mv bin/"deterministic-zip_darwin-amd64", bin/"deterministic-zip"
+      elsif OS.linux?
+        bin.install "deterministic-zip_linux-amd64"
+        mv bin/"deterministic-zip_linux-amd64", bin/"deterministic-zip"
+      end
+    end
+
+    test do
+      system "false"
+    end
+  end
+
