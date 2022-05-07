@@ -1,8 +1,13 @@
 homebrew-deterministic-zip
 ===
 
-HomeBrew formula for [deterministic-zip](https://github.com/timo-reymann/deterministic-zip)
+<p align="center">
+  <img width="300" src="https://brew.sh/assets/img/homebrew-256x256.png">
+</p>
 
+<p align="center">
+HomeBrew formula for <a href="https://github.com/timo-reymann/deterministic-zip">deterministic-zip</>.
+  </p>
 
 ## Releasing
 
