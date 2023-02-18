@@ -1,5 +1,7 @@
 homebrew-deterministic-zip
 ===
+[![LICENSE](https://img.shields.io/github/license/timo-reymann/homebrew-deterministic-zip)](https://github.com/timo-reymann/homebrew-deterministic-zip/blob/main/LICENSE)
+
 
 <p align="center">
   <img width="300" src="https://brew.sh/assets/img/homebrew-256x256.png">
