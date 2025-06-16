@@ -2,9 +2,9 @@
 
 class DeterministicZip < Formula
     desc "Simple (almost drop-in) replacement for zip that produces deterministic files."
-    url "https://github.com/timo-reymann/deterministic-zip/releases/download/4.0.0/deterministic-zip_darwin-amd64"
-    sha256 "bfb622859428d222c0fc2d5264d27324e3d1631dcf490c383858f45b44cee7d2"
-    version "4.0.0"
+    url "https://github.com/timo-reymann/deterministic-zip/releases/download/4.0.1/deterministic-zip_darwin-amd64"
+    sha256 "1dfece8f0eaf249c98267a525a6033f0d67064141fef17f9dfd2215646c71aa9"
+    version "4.0.1"
 
     def install
         bin.install "deterministic-zip_darwin-amd64" => "deterministic-zip"
