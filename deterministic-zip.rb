@@ -2,16 +2,16 @@
 
 class DeterministicZip < Formula
     desc "Simple (almost drop-in) replacement for zip that produces deterministic files."
-    version "6.0.3"
+    version "6.1.0"
 
     on_macos do
       on_intel do
-        url "https://github.com/timo-reymann/deterministic-zip/releases/download/6.0.3/deterministic-zip_darwin-amd64"
-        sha256 "7a21916b3f400fd93568251ee74613c510a9218eb0f5175aae2e7567f7896d39"
+        url "https://github.com/timo-reymann/deterministic-zip/releases/download/6.1.0/deterministic-zip_darwin-amd64"
+        sha256 "e8496a5964bb09aaf3e5db53ac237354ba53ae7126d8af414576f402ca26aab7"
       end
       on_arm do
-        url "https://github.com/timo-reymann/deterministic-zip/releases/download/6.0.3/deterministic-zip_darwin-arm64"
-        sha256 "2ab41c6b0def889a000067298bc855cb2e315295551aa136dd40340503629858"
+        url "https://github.com/timo-reymann/deterministic-zip/releases/download/6.1.0/deterministic-zip_darwin-arm64"
+        sha256 "786d114dadee77c4dfb5d7ebec8109cd96d113bbbe4e4b486a307def9e3a3eea"
       end
     end
 
